@@ -1,4 +1,4 @@
-package sk.stuba.fei.uim.oop;
+package sk.stuba.fei.uim.oop.kontakty;
 
 public class Kontakt {
     private String meno;
