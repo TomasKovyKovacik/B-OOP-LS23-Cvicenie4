@@ -4,14 +4,12 @@ public class Main {
 
     public static void main(String[] args) {
         var tomas = new Kontakt("Tomas", "Kovacik");
-        var stanislav = new Kontakt("Stanislav", "Marochok");
-        var eugen = new Kontakt("Eugen Antal");
+        var stanislav = new Absolvent("Stanislav", "Marochok", "Ing");
+        var eugen = new Absolvent("Eugen" , "Antal", "PhD.");
 
-        var kontakty = new Kontakt[] {new Kontakt(stanislav), new Kontakt(eugen)};
+        var kontakty = new Kontakt[] {stanislav, eugen};
         tomas.setKontakty(kontakty);
 
-        tomas.vypisKontakty();
-        stanislav.setMeno("Stanko");
         tomas.vypisKontakty();
     }
 }

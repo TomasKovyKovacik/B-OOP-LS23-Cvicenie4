@@ -47,7 +47,12 @@ public class Kontakt {
 
     public void vypisKontakty() {
         for (int i = 0; i < this.kontakty.length; i++) {
-            System.out.println(this.kontakty[i].meno + "  " + this.kontakty[i].priezvisko);
+            System.out.println(this.kontakty[i].toString());
         }
+    }
+
+    @Override
+    public String toString() {
+        return this.meno + " " + this.priezvisko;
     }
 }
