@@ -4,7 +4,6 @@ import sk.stuba.fei.uim.oop.kontakty.Absolvent;
 import sk.stuba.fei.uim.oop.kontakty.Kontakt;
 import sk.stuba.fei.uim.oop.zvierata.Macka;
 import sk.stuba.fei.uim.oop.zvierata.Pes;
-import sk.stuba.fei.uim.oop.zvierata.Zviera;
 
 public class Main {
 
